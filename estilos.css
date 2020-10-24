@@ -1,0 +1,407 @@
+/*font-family: 'Lora', serif;
+
+font-family: 'Open Sans Condensed', sans-serif;
+
+font-family: 'Piazzolla', serif;
+*/
+body{
+    margin: 0px;
+}
+.header{
+    height: 200px;
+    background: #DFB9B8;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    margin:0px;
+    
+
+}
+.header-figure{
+    margin: 0px;
+    height:200px;
+    width: 200;
+}
+.logo{
+    margin-top: 0px;
+    height: 200px;
+}
+.redes{
+    margin: 0px 5px 0px 5px;
+    font-family: 'Piazzolla', serif;
+}
+.link{
+    margin: 0px 10px 0px 5px;
+}
+.menu{
+background: black;
+margin-top: 0px;
+
+}
+
+ul{
+    display: flex ;
+    flex-direction:row;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    
+} 
+
+li{
+  list-style: none; 
+  margin:10px ; 
+  
+    
+}
+
+a{
+    color: aliceblue;
+text-decoration: none;
+}
+.link{
+    font-family: 'Piazzolla', serif;
+}
+.frase{
+height: 500px;
+background-image: url(image-frase.jpg);
+background-size: 100% 500px;
+background-repeat: no-repeat;
+
+
+}
+.frase-article{
+display:flex;
+justify-content: start;
+    
+}
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    margin: 10px 20px ;
+    margin-top: 0px;
+    padding: 10px;
+    text-align:end ;
+    color: #fffefe ;
+    line-height: 170px;
+    font-weight: 600;
+}
+span{
+    color:#99f5ed;
+}
+.aboutme{
+    
+    
+    height: 1000px;
+    background:#DFB9B8;
+    border: 1px solid black;
+    border-radius:10px;
+    margin: 1px;
+    padding: 1px;
+}
+.aboutme-article{
+margin: 0px;
+
+}
+.aboutme-article_h2{
+    margin: 0px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px; 
+    font-weight: 800;
+}
+.parrafo{
+    font-family:  'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    margin: 5px;
+    font-weight: 600;
+    text-transform:unset;
+    line-height: 50px;
+    
+    
+}
+.textocentrado{
+    text-align: center;
+}
+.software{
+    height: 200px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.milenguaje{
+width: 100px;
+height: 100px;
+margin: 10px;
+border: 1px solid black;
+border-radius: 20px;
+}
+.image{
+    background-image: url(header-julian.jpg);
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    margin-bottom: 500px;
+
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+
+}
+.cursos{
+    
+    background:#000000;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+h2{
+    margin-top: 0px;
+    text-align: center;
+    font-family:'Lora', serif; 
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.curso-comunidadit{
+    background:#f7f7f7 ;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.curso-java{
+    background:#cceabb ;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.curso-competencias{
+    background:#a7a7b1 ;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+.curso-udemy{
+    background:#fdcb9e ;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+.imagenlogo1{
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 10px;
+}
+h3{
+    font-family:'Lora', serif; 
+    font-size: 20px; 
+}
+p{
+    font-family:  'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.contact{
+    height: 200px;
+    background:#DFB9B8 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    border-bottom: 1px solid black;
+}
+.contact-h2{
+    font-family: 'Open Sans Condensed', sans-serif ;
+    background: rgb(0, 0, 0);
+    font-size:30px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+.contact-mail{
+
+    
+    
+}
+button{
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 21px;
+    color: rgb(0, 0, 0);
+}
+input{
+    height: 19px;
+    border: 2px black solid;
+
+    border-radius: 3px;
+}
+.icono{
+    margin: 0px 2px 1px 0px;
+    font-size: 20px;
+    height:20px;
+}
+.footer-parrafo{
+    margin: 0px;
+    height: 50px;
+    text-align: center;
+    font-family:'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+.face {
+    margin: 0px 5px 0px 10px;
+    font-size: 25px;
+    color: blue;
+}
+.insta{
+    font-size: 25px;
+  color: blueviolet;
+  margin: 0px 5px 0px 10px;
+}
+.git{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin: 0px 5px 0px 10px;
+}
+.linke{
+    font-size: 25px;
+    color: royalblue;
+    margin: 0px 5px 0px 10px;
+}
+
+@media screen and (max-width:1024px){
+  .cursos{
+ 
+   padding: 50px;
+
+  }
+}
+@media screen and (max-width:768px){
+    .header-figure{
+        display: flex;
+        justify-content: center;
+        }
+        .redes{
+            display: flex;
+            justify-content: center;  
+            margin: 0 0;
+            padding: 0px;
+            height: auto;
+            background:#DFB9B8;
+        }
+        a{
+                
+        }
+        i{
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+        }
+.menu{
+    height: auto;
+    margin: 0px;
+    margin-top: 20px;
+    background: rgb(3, 3, 3);
+}
+ul{
+    
+}
+a link{
+    color: rgb(0, 0, 0);
+}
+.cursos{
+ 
+   }
+   .software{
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.image{
+height: 100%;
+margin-top: 30px;
+}
+}
+@media screen and (max-width:480px){
+ .frase {
+     height:300px;
+     display: flex;
+     justify-content: flex-start;
+ }   
+h1{
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    margin:10 0;
+    color: rgb(81, 255, 0);
+}
+span{
+    color: rgb(102, 255, 0);
+}
+.aboutme{
+  height: 40%;  
+justify-content: center;
+}
+.aboutme-article{
+    height:1000px;
+    flex-wrap: wrap;
+}
+.aboutme-article_h2{
+
+}
+.parrafo{
+
+}
+.software{
+    flex-wrap: wrap;
+}
+.image{
+   height: 50%;
+   margin-top:50px ;
+}
+.parrafo{
+    font-size: 20px;
+    line-height: 100%;
+
+}
+.cursos{
+    box-sizing: border-box;
+   }
+   .curso-comunidadit{
+    flex-wrap:wrap ;
+   }
+   .curso-java{
+       flex-wrap: wrap;
+   }
+   .curso-competencias{
+       flex-wrap: wrap;
+   }
+   .curso-udemy{
+       flex-wrap: wrap;
+   }
+}
+@media screen and (max-width:320px) {
+ .cursos{
+     background: rgb(0, 0, 0);
+ }
+    .imagenlogo1{
+        display: none;
+    }
+       .curso-comunidadit{
+        flex-wrap:wrap ;
+        
+       }
+       .curso-java{
+           flex-wrap: wrap;
+       }
+       .curso-competencias{
+           flex-wrap: wrap;
+       }
+       .curso-udemy{
+           flex-wrap: wrap;
+       } 
+       .contact-mail{
+
+           flex-wrap: wrap;
+       }
+ }
+    
